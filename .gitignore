@@ -1,0 +1,9 @@
+Build
+build
+_build
+Makefile.PL
+Debian_CPANTS.txt
+blib
+*.bak
+META.yml
+MANIFEST
