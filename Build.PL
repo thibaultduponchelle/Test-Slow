@@ -10,8 +10,11 @@ my $builder = Module::Build->new(
     requires            => {
         'Test::More' => 0,
     },
-    add_to_cleanup     => ['Test-Slow-*', '*.bak'],
-    create_makefile_pl => 'traditional',
+    add_to_cleanup      => ['Test-Slow-*', '*.bak'],
+    create_makefile_pl  => 'traditional',
+    meta_merge          => {
+        resources => { repository => 'http://github.com/zoul/Test-Slow' },
+    },
 );
 
 $builder->create_build_script;

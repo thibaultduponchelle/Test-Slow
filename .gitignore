@@ -7,3 +7,4 @@ blib
 *.bak
 META.yml
 MANIFEST
+Test-Slow-*
