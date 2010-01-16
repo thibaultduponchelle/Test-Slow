@@ -8,6 +8,7 @@ my $builder = Module::Build->new(
     dist_author         => q{Tomáš Znamenáček <zoul@fleuron.cz>},
     dist_version_from   => 'lib/Test/Slow.pm',
     requires            => {
+        'perl' => '5.8.0',
         'Test::More' => 0,
     },
     add_to_cleanup      => ['Test-Slow-*', '*.bak'],
