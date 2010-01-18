@@ -4,7 +4,7 @@ package Test::Slow;
 
 =head1 NAME
 
-Test::Slow - Skip test that are too slow to run frequently.
+Test::Slow - Skip test that are too slow to run frequently
 
 =head1 SYNOPSIS
 
