@@ -5,6 +5,6 @@ Makefile.PL
 Debian_CPANTS.txt
 blib
 *.bak
-META.yml
+*META.yml
 MANIFEST
 Test-Slow-*

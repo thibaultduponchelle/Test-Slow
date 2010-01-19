@@ -44,3 +44,4 @@
 ^\.git
 Debian_CPANTS.txt
 MANIFEST.SKIP
+^MYMETA.yml$

@@ -8,10 +8,10 @@ my $builder = Module::Build->new(
     dist_author         => q{Tomáš Znamenáček <zoul@fleuron.cz>},
     dist_version_from   => 'lib/Test/Slow.pm',
     requires            => {
-        'perl' => '5.8.0',
+        'perl' => '5.008',
         'Test::More' => 0,
     },
-    add_to_cleanup      => ['Test-Slow-*', '*.bak', 'Debian_CPANTS.txt', 'Makefile.PL', '_build'],
+    add_to_cleanup      => ['Test-Slow-*', '*.bak', 'Debian_CPANTS.txt'],
     create_makefile_pl  => 'traditional',
     meta_merge          => {
         resources => { repository => 'http://github.com/zoul/Test-Slow' },
