@@ -41,3 +41,6 @@
 
 # Avoid archives of this distribution
 \bTest-Slow-[\d\.\_]+
+^\.git
+Debian_CPANTS.txt
+MANIFEST.SKIP
