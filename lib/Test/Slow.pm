@@ -28,7 +28,7 @@ use warnings;
 use strict;
 use Test::More;
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 BEGIN {
     plan(skip_all => 'Slow test.') if $ENV{QUICK_TEST};
