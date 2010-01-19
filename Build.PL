@@ -11,7 +11,7 @@ my $builder = Module::Build->new(
         'perl' => '5.8.0',
         'Test::More' => 0,
     },
-    add_to_cleanup      => ['Test-Slow-*', '*.bak'],
+    add_to_cleanup      => ['Test-Slow-*', '*.bak', 'Debian_CPANTS.txt', 'Makefile.PL', '_build'],
     create_makefile_pl  => 'traditional',
     meta_merge          => {
         resources => { repository => 'http://github.com/zoul/Test-Slow' },
