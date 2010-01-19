@@ -2,11 +2,10 @@
 
 use strict;
 use warnings;
-use Test::More;
+use Test::More tests => 1;
 
 BEGIN {
     use_ok 'Test::Slow';
 }
 
 diag "Testing Test::Slow $Test::Slow::VERSION, Perl $], $^X";
-done_testing;
