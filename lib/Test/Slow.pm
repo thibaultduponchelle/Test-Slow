@@ -22,16 +22,39 @@ variable to a true value:
 
    $ QUICK_TEST=1 prove --lib t/*t
 
+
+The other approach is to disable slow tests by default and run 
+them only when requested :
+
+   use Test::Slow "skip";
+   use Test::More;
+   ...
+   done_testing;
+
+To run even the slow tests, set the C<SLOW_TESTS> environment 
+variable to a true value :
+
+   $ SLOW_TEST=1 prove --lib t/*t
+
+
 =cut
 
 use warnings;
 use strict;
 use Test::More;
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 BEGIN {
-    plan(skip_all => 'Slow test.') if $ENV{QUICK_TEST};
+    sub import { 
+	    my ($package, $msg) = @_; 
+
+	    if(defined $msg and $msg eq "skip") { 
+		    plan(skip_all => 'Slow test.') unless $ENV{SLOW_TEST};
+	    } else {
+		    plan(skip_all => 'Slow test.') if $ENV{QUICK_TEST};
+	    }
+    }
 }
 
 =head1 COPYRIGHT & LICENSE
