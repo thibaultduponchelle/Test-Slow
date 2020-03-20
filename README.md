@@ -1,7 +1,7 @@
 
 # NAME
 
-Test::Slow - Skip test that are too slow to run frequently
+Test::Slow - Skip test(s) that are too slow to run frequently
 
 # SYNOPSIS
 

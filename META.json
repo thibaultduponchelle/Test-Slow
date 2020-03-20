@@ -1,5 +1,5 @@
 {
-   "abstract" : "Skip test that are too slow to run frequently",
+   "abstract" : "Skip test(s) that are too slow to run frequently",
    "author" : [
       "Tomáš Znamenáček, zoul@fleuron.cz"
    ],
