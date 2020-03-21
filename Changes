@@ -2,7 +2,7 @@ Revision history for Perl extension Test::Slow
 
 {{$NEXT}}
 
-        - Change maintainer (from ZOUL to CONTRA). Thank you ZZOUL for this great module !
+        - Change maintainer (from ZOUL to CONTRA). Thank you ZOUL for this great module !
         - Add parameter to skip test by default
         - Some more tests
 
