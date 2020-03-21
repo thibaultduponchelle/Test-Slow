@@ -60,6 +60,7 @@ BEGIN {
 =head1 COPYRIGHT & LICENSE
 
 Copyright 2010-2020 Tomáš Znamenáček, zoul@fleuron.cz
+
 Copyright 2020 Thibault Duponchelle, thibault.duponchelle@gmail.com
 
 This program is free software; you can redistribute it and/or modify it
