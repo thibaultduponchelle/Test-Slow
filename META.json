@@ -1,7 +1,7 @@
 {
    "abstract" : "Skip test(s) that are too slow to run frequently",
    "author" : [
-      "Tomáš Znamenáček, zoul@fleuron.cz"
+      "-2020 Tomáš Znamenáček, zoul@fleuron.cz"
    ],
    "dynamic_config" : 0,
    "generated_by" : "Minilla/v3.1.9, CPAN::Meta::Converter version 2.150010",
@@ -65,7 +65,7 @@
    },
    "version" : "0.04",
    "x_contributors" : [
-      "Thibault DUPONCHELLE <thibault.duponchelle@amadeus.com>",
+      "Thibault DUPONCHELLE <thibault.duponchelle@gmail.com>",
       "Tomáš Znamenáček <tomas.znamenacek@gmail.com>",
       "thibaultduponchelle <580360+thibaultduponchelle@users.noreply.github.com>"
    ],
